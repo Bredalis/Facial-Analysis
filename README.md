@@ -1,51 +1,131 @@
-<h1><b>😭 Facial-Analysis 😊</b></h1>
-<a href="https://www.python.org" target="_blank">
-  <img src="https://img.shields.io/badge/Python-52BE80">
-</a>
-<a href="https://pypi.org/project/opencv-python/" target="_blank">
-  <img src="https://img.shields.io/badge/OpenCV-C11007">
-</a>
-<a href="https://pypi.org/project/deepface/" target="_blank">
-  <img src="https://img.shields.io/badge/DeepFace-2B7FFF">
-</a>
-<br><br>
+<h1 align="center">😊 Facial Analysis System 😭</h1>
 
-<img width="300" src="https://i.pinimg.com/736x/94/58/b8/9458b8cc3d319523c493af5b51df9c32.jpg">
-
-<p>
-  AI program capable of detecting emotions, age, and gender through a video of facial expressions.
+<p align="center">
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://img.shields.io/badge/Python-52BE80">
+  </a>
+  <a href="https://pypi.org/project/opencv-python/" target="_blank">
+    <img src="https://img.shields.io/badge/OpenCV-5C3EE8">
+  </a>
+  <a href="https://pypi.org/project/deepface/" target="_blank">
+    <img src="https://img.shields.io/badge/DeepFace-2B7FFF">
+  </a>
 </p>
 
-## Índice de Contenidos 🧾
+<br>
 
-- Descripción 📝
-- Instalación 🛠️
-- Uso 📘
-- Licencia📜
+<p align="center">
+  <img width="300" src="https://i.pinimg.com/736x/94/58/b8/9458b8cc3d319523c493af5b51df9c32.jpg">
+</p>
 
-## Instalación 🖥️
+---
 
-1. Clona el repositorio:
+## 📖 Description
 
-    ```
-    git clone https://github.com/Bredalis/Facial-Analysis.git
-    ```
-## Uso ⚙️
+This project is an Artificial Intelligence system capable of analyzing facial expressions from video input to detect:
 
-Para ejecutar el programa, simplemente navega a Google Colab en la Web y das a la opción subir, 
-buscas el archivo Facial_Analysis.ipynb y ya está listo para usarse.
+- 😊 Emotion
+- 👤 Gender
+- 🎂 Estimated Age
 
-## Licencia 📜
+It uses **OpenCV** for video processing and face detection, and **DeepFace** for high-level facial attribute analysis.
 
-Este proyecto está licenciado bajo la Licencia 📜 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPLv3 (GNU General Public License V3.0)</a>.
+This project represents one of my early explorations in **Computer Vision** and applied AI.
 
-## <img src="https://avatars.githubusercontent.com/u/111624948?s=400&u=cd081f79392220d8cd2a22f2a8d5d3b18814350a&v=4" width="50" height="50"> Hola, soy Bredalis Guerrero!
-[![Github](https://img.shields.io/github/followers/Bredalis?label=Follow&style=social)](https://github.com/Bredalis)
-![GitHub Followers](https://img.shields.io/github/stars/bredalis?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/bredalis_P?style=social)](https://twitter.com/bredalis_P)
+---
 
-¡Hola! Mi nombre es Bredalis y actualmente estoy aprendiendo cosas como Linux y Docker 😄
-Me gusta mucho la programacion y la IA 😁
+## 🧠 Technologies Used
 
-## Mira mi perfil de GitHub:
-[![Web](https://img.shields.io/badge/GitHub-Bredalis-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/bredalis)
+- Python  
+- OpenCV  
+- DeepFace  
+- Jupyter Notebook  
+
+---
+
+## 📂 Project Structure
+
+```
+
+Facial-Analysis/
+│
+├── notebooks/facial_analysis.ipynb
+├── data/videos/facial_expressions.avi
+├── video_generator.py
+├── README.md
+└── LICENSE
+
+````
+
+---
+
+## ⚙️ Installation
+
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/Bredalis/Facial-Analysis.git
+````
+
+2️⃣ Install dependencies:
+
+```bash
+pip install opencv-python deepface
+```
+
+---
+
+## 🚀 Usage
+
+### Option 1 — Google Colab (Recommended)
+
+1. Open Google Colab in your browser.
+2. Click **Upload Notebook**.
+3. Upload `facial_analysis.ipynb`.
+4. Run all cells.
+
+### Option 2 — Run Locally
+
+```bash
+python video_generator.py
+```
+
+---
+
+## 📈 Possible Improvements
+
+* Improve real-time performance
+* Add support for multiple face tracking
+* Enhance emotion classification accuracy
+* Refactor into modular production-ready architecture
+* Add evaluation metrics and performance benchmarks
+
+---
+
+## 📜 License
+
+This project is licensed under the
+**GNU General Public License v3.0 (GPLv3)**
+[https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+---
+
+## 👩‍💻 About Me
+
+Hi, I'm **Bredalis Guerrero** 👋
+
+I'm passionate about programming and Artificial Intelligence.
+Currently learning more about **Linux**, **Docker**, and improving my AI and Computer Vision skills 🚀
+
+<p>
+  <a href="https://github.com/Bredalis">
+    <img src="https://img.shields.io/github/followers/Bredalis?label=Follow&style=social">
+  </a>
+  <a href="https://twitter.com/bredalis_P">
+    <img src="https://img.shields.io/twitter/follow/bredalis_P?style=social">
+  </a>
+</p>
+
+---
+
+⭐ If you like this project, feel free to give it a star!
